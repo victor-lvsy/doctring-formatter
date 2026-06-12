@@ -47,7 +47,7 @@ pipx reinstall .
 Or reinstall directly from Git:
 
 ```bash
-pipx reinstall git+https://github.com/<org>/docstring-formatter.git
+pipx reinstall git+https://github.com/victor-lvsy/docstring-formatter.git
 ```
 
 ### One-off run without installing
