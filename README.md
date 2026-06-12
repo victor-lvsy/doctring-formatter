@@ -32,7 +32,7 @@ pipx install .
 ### From a Git URL
 
 ```bash
-pipx install git+https://github.com/<org>/docstring-formatter.git
+pipx install git+https://github.com/victor-lvsy/docstring-formatter.git
 ```
 
 ### Upgrade or reinstall
@@ -48,14 +48,6 @@ Or reinstall directly from Git:
 
 ```bash
 pipx reinstall git+https://github.com/victor-lvsy/docstring-formatter.git
-```
-
-### One-off run without installing
-
-From a Git repository:
-
-```bash
-pipx run --spec git+https://github.com/<org>/docstring-formatter.git docfmt --diff src/
 ```
 
 ## Usage
