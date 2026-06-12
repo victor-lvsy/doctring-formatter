@@ -1,0 +1,16 @@
+[project]
+name = "docstring-formatter"
+version = "0.1.0"
+description = "Conservative docstring formatter for Python code."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "docstring-parser>=0.16",
+]
+
+[project.scripts]
+docfmt = "docstring_formatter.cli:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
