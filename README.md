@@ -24,7 +24,7 @@ This tool is not published on PyPI. Install it from source with [pipx](https://p
 ### From a local checkout
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:victor-lvsy/doctring-formatter.git
 cd docstring-formatter
 pipx install .
 ```
